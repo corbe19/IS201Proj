@@ -1,0 +1,78 @@
+.header {
+    background-color: black;
+    color: white;
+    height: 100px;
+    line-height: 100px;
+}
+
+.mainBody {
+    background-color: rgb(232, 229, 229);
+    margin: 40px;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid #333;
+}
+
+.footer {
+    position: fixed;
+    background-color: gray;
+    bottom: 0px;
+    right: 3px;
+    left: 3px;
+    height: 25px;
+    font-size: 10px;
+    line-height: 25px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:35%;
+}
+
+.common{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    background-color: lightgray;
+    padding: 10px;
+    overflow: hidden;
+}
+
+nav a{
+    padding: 15px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+nav a:hover{
+    background-color: #CCC;
+}
+
+
+ul, ol {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+ul li, ol li {
+    text-align: center;
+    list-style-position: inside;
+}
+
+.anchor {
+    text-decoration: none;
+    color: white; 
+}
+
+.anchor:hover{
+    color: rgb(89, 89, 89);
+}
